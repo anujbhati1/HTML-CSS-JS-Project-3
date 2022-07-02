@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Below css is for header and navbar */
+
+.main_heading {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 23px 20px;
+  border-bottom: 0.25px solid rgb(192, 192, 192);
+}
+.navbar h1 {
+  color: #5b21b6;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0px 10px;
+}
+.nav_link a {
+  text-decoration: none;
+  color: black;
+  padding: 0px 8px;
+}
+.nav_btn {
+  color: #ffffff;
+  font-size: 14px;
+  background-color: #6d28d9;
+  margin: 0px 4px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+.nav_btn:hover {
+  background-color: #5b21b6;
+}
+
+/* This css is for class content1  */
+
+.content1 {
+  display: flex;
+  padding: 0px 32px;
+}
+.left_content {
+  display: block;
+  align-self: center;
+  margin: 0px 38px;
+}
+.right_img img {
+  height: 384px;
+  width: 599px;
+  margin: 3px 10px;
+}
+.left_subcontent h1 {
+  font-size: 36px;
+  font-weight: 500;
+}
+.left_subcontent h1 span {
+  font-size: 36px;
+  font-weight: 500;
+  color: #4f46e5;
+}
+.left_subcontent p {
+  color: #6b7280;
+  margin: 8px 0px 0px;
+}
+.left_buttons {
+  margin: 24px 0px 0px;
+}
+.left_buttons button {
+  padding: 0.7rem 17px;
+  border-radius: 4px;
+  margin: 0px 5px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+.cnt1btn {
+  background-color: black;
+  color: white;
+}
+.cnt1btn:hover {
+  background-color: rgb(54, 54, 54);
+  color: white;
+}
+.cnt2btn {
+  background-color: #d1d5db;
+  color: #111827;
+}
+.cnt2btn:hover {
+  background-color: rgb(125, 135, 150);
+}
+
+/* This css is for class content2 */
+
+.content2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 8px 0px;
+}
+.h2_headings {
+  margin: 40px 0px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.card_collector {
+  display: flex;
+  padding: 1rem;
+}
+.card_c2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-shadow: 0px 0px 10px rgb(170, 170, 170);
+  border-radius: 15px;
+  width: 33%;
+  margin: 20px;
+}
+.card_c2 a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+}
+.free_course {
+  font-size: 12px;
+  color: #9ca3af;
+  font-weight: 600;
+}
+.other_than_img {
+  padding: 16px 24px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: left;
+}
+.button {
+  background-color: #5b21b6;
+  color: white;
+  font-size: small;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #4f46e5;
+}
+.w_full {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+/* This css is for class content3 */
+
+.content3 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 48px 20px;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  margin: 0px 20px;
+}
+.both_box {
+  height: 200px;
+  width: 525px;
+  margin: 15px;
+  padding: 30px;
+  background-color: rgb(240, 238, 238);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
+.box_author {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+.author_name {
+  font-weight: 600;
+}
+
+/* This css is for content4 */
+
+.footer_last {
+  margin: 32px 0px 0px;
+  padding: 0px 40px;
+}
+
+.footer_div {
+  display: flex;
+  align-items: center;
+  padding: 16px 8px;
+}
+.logo {
+  height: 48px;
+  width: 48px;
+}
+.ftr_title {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0px 0px 0px 12px;
+  color: #111827;
+}
+.copyright {
+  margin: 0px 0px 0px 16px;
+  padding: 8px 0px 8px 16px;
+  font-size: 14px;
+  color: #6b7280;
+  border-left: 2px solid #ccced1 ;
+}
+
+
+/* Fully ok with 1005px   */
